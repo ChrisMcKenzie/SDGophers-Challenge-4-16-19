@@ -2,7 +2,7 @@
 
 ## Building a proxy
 
-### Level 1
+## Level 1
 
 Build a HTTP proxy that can simply take and incoming request and forward it to 
 a backend server (e.g. google.com, walmart.com) and respond back to the user with
@@ -10,7 +10,7 @@ the backends response.
 
 should also set the proper `X-Forwarded-For` header.
 
-### Level 2
+## Level 2
 
 Add support for falling back to another backend if the primary fails.
 
